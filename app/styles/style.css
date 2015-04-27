@@ -244,7 +244,7 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
   left: 0px;
   right: 0px;
   margin: auto;
-  background-image: url(../images/caption-bg.png);
+  background-image: url(../assets/images/caption-bg.png);
   padding: 30px 50px;
   width: 60%;
   text-align: center;
@@ -327,7 +327,7 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
 .support {
   float: left;
   width: 180px;
-  background-image: url(../images/mobile.png);
+  background-image: url(../assets/images/mobile.png);
   background-repeat: no-repeat;
   padding: 0px 0px 0px 30px;
 }
@@ -381,31 +381,31 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
 }
 
 .fb {
-  background-image: url(../images/fb.png);
+  background-image: url(../assets/images/fb.png);
 }
 
 .skype {
-  background-image: url(../images/skype.png);
+  background-image: url(../assets/images/skype.png);
 }
 
 .linkedin {
-  background-image: url(../images/linkedin.png);
+  background-image: url(../assets/images/linkedin.png);
 }
 
 .twitter {
-  background-image: url(../images/tiwtter.png);
+  background-image: url(../assets/images/tiwtter.png);
 }
 
 .flickr {
-  background-image: url(../images/flickr.png);
+  background-image: url(../assets/images/flickr.png);
 }
 
 .rss {
-  background-image: url(../images/rss.png);
+  background-image: url(../assets/images/rss.png);
 }
 
 .heart {
-  background-image: url(../images/heart.png);
+  background-image: url(../assets/images/heart.png);
 }
 
 /*
@@ -460,7 +460,7 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
 */
 .content header {
   text-align: center;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-position: bottom;
   background-repeat: repeat-x;
   padding: 0px 0px 30px 0px;
@@ -517,7 +517,7 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
   top: 100%;
   left: 0px;
   content: "";
-  background-image: url(../images/box-shadow.png);
+  background-image: url(../assets/images/box-shadow.png);
   height: 22px;
   background-position: center;
   background-repeat: no-repeat;
@@ -568,7 +568,7 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
 
 .basket-options ul li a {
   display: block;
-  background-image: url(../images/thumb-sprite.png);
+  background-image: url(../assets/images/thumb-sprite.png);
   background-repeat: no-repeat;
   height: 19px;
   width: 19px;
@@ -598,7 +598,7 @@ header .navbar .btn-navbar, header .navbar .btn-navbar:hover {
 .footer {
   float: left;
   width: 100%;
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../assets/images/footer-bg.png);
   padding: 50px 0px 10px 0px;
 }
 
@@ -678,7 +678,7 @@ input[type="text"]:focus {
 .category-banner {
   float: left;
   width: 100%;
-  background-image: url(../images/category-banner1.png);
+  background-image: url(../assets/images/category-banner1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 498px;
@@ -700,12 +700,12 @@ input[type="text"]:focus {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url(../images/banner-pettern.png);
+  background-image: url(../assets/images/banner-pettern.png);
   content: "";
 }
 
 .category-banner1 {
-  background-image: url(../images/category-banner1.png);
+  background-image: url(../assets/images/category-banner1.png);
 }
 
 /*
@@ -967,7 +967,7 @@ input[type="text"]:focus {
 .heading {
   float: left;
   width: 100%;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: bottom;
   padding: 5px 0px;
@@ -1062,7 +1062,7 @@ input[type="text"]:focus {
   font-size: 20px;
   color: #FFFFFF;
   display: inline-block;
-  background-image: url(../images/calender.png);
+  background-image: url(../assets/images/calender.png);
   background-repeat: no-repeat;
   background-position: 15px center;
 }
@@ -1093,7 +1093,7 @@ input[type="text"]:focus {
   margin: 30px 0px 0px 0px;
   float: left;
   width: 100%;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: top;
   padding: 30px 0px 0px 0px;
@@ -1221,7 +1221,7 @@ input[type="text"]:focus {
   float: left;
   width: 100%;
   padding: 20px 0px;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: bottom;
   margin: 0px 0px 15px 0px;
@@ -1355,20 +1355,20 @@ input[type="text"]:focus {
 }
 
 .blog-listing .tags ul li.author {
-  background-image: url(../images/author.png);
+  background-image: url(../assets/images/author.png);
 }
 
 .blog-listing .tags ul li.comments {
-  background-image: url(../images/comments.png);
+  background-image: url(../assets/images/comments.png);
 }
 
 .blog-listing .tags ul li.tags {
-  background-image: url(../images/tags.png);
+  background-image: url(../assets/images/tags.png);
   padding: 0px
 }
 
 .blog-listing .tags ul li.time {
-  background-image: url(../images/calender2.png);
+  background-image: url(../assets/images/calender2.png);
 }
 
 .blog-listing .text {
@@ -1393,7 +1393,7 @@ input[type="text"]:focus {
 .blog-listing ul li {
   margin: 30px 0px 0px 0px;
   padding: 30px 0px 0px 0px;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: top;
   float: left;
@@ -1413,7 +1413,7 @@ input[type="text"]:focus {
 }
 
 .widget .heading {
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: center center !important;
 }
@@ -1580,7 +1580,7 @@ input[type="text"]:focus {
   content: "";
   width: 40px;
   height: 40px;
-  background-image: url(../images/quots2.png);
+  background-image: url(../assets/images/quots2.png);
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -1637,7 +1637,7 @@ input[type="text"]:focus {
   float: left;
   width: 100%;
   padding: 0px 0px 0px 45px;
-  background-image: url(../images/twitter-feed.png);
+  background-image: url(../assets/images/twitter-feed.png);
   background-repeat: no-repeat;
   background-position: 4px 0px;
   -webkit-box-sizing: border-box;
@@ -1739,11 +1739,11 @@ input[type="text"]:focus {
 }
 
 .news-tags.tags ul li.author {
-  background-image: url(../images/author-black.png) !important;
+  background-image: url(../assets/images/author-black.png) !important;
 }
 
 .news-tags.tags ul li.comments {
-  background-image: url(../images/comments-black.png);
+  background-image: url(../assets/images/comments-black.png);
 }
 
 .news-tags.tags ul li.tags {
@@ -1751,11 +1751,11 @@ input[type="text"]:focus {
 }
 
 .news-tags.tags ul li.time {
-  background-image: url(../images/calender2-black.png);
+  background-image: url(../assets/images/calender2-black.png);
 }
 
 .news-tags.tags ul li.share {
-  background-image: url(../images/share.png);
+  background-image: url(../assets/images/share.png);
 }
 
 .title {
@@ -1782,7 +1782,7 @@ input[type="text"]:focus {
   float: left;
   width: 100%;
   padding: 30px 0px;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: top;
   margin: 30px 0px 0px 0px;
@@ -1904,7 +1904,7 @@ input[type="text"]:focus {
 
 .proceed-btn {
   padding: 10px 20px 10px 50px;
-  background-image: url(../images/proceed-icon.png);
+  background-image: url(../assets/images/proceed-icon.png);
   background-repeat: no-repeat;
   background-position: 10px center;
   float: none;
@@ -1984,7 +1984,7 @@ input[type="text"]:focus {
 .order-detail .total {
   float: left;
   width: 100%;
-  background-image: url(../images/border.png);
+  background-image: url(../assets/images/border.png);
   background-repeat: repeat-x;
   background-position: center;
 }
@@ -2024,7 +2024,7 @@ input[type="text"]:focus {
 }
 
 .update .update-btn {
-  background-image: url(../images/update.png);
+  background-image: url(../assets/images/update.png);
   padding-left: 40px
 }
 
@@ -2134,7 +2134,7 @@ input[type="text"]:focus {
 
 .add-basket {
   padding-left: 30px;
-  background-image: url(../images/basket.png);
+  background-image: url(../assets/images/basket.png);
   background-position: 5px center;
   background-repeat: no-repeat;
 }
@@ -2173,7 +2173,7 @@ input[type="text"]:focus {
 .zoom {
   width: 52px;
   height: 55px;
-  background-image: url(../images/zoom.png);
+  background-image: url(../assets/images/zoom.png);
   background-repeat: no-repeat;
   position: absolute;
   bottom: -60px;
@@ -2418,7 +2418,7 @@ input[type="text"]:focus {
   list-style: none;
   clear: both;
   position: relative;
-  background: url(../images/star-matrix.gif) no-repeat 0px 0px;
+  background: url(../assets/images/star-matrix.gif) no-repeat 0px 0px;
 }
 
 /* add these classes to the ul to effect the change to the correct number of stars */
@@ -2491,7 +2491,7 @@ ul.rating li a:hover {
   height: 16px;
   overflow: hidden;
   left: 0;
-  background: url(../images/star-matrix.gif) no-repeat 0px 0px;
+  background: url(../assets/images/star-matrix.gif) no-repeat 0px 0px;
 }
 
 ul.rating li.one a:hover {
@@ -2566,7 +2566,7 @@ ul.rating li.five a:hover {
   position: absolute;
   width: 33px;
   height: 33px;
-  background-image: url(../images/zoom2.png);
+  background-image: url(../assets/images/zoom2.png);
   background-repeat: no-repeat;
   bottom: -35px;
   left: 0px;
@@ -2670,7 +2670,7 @@ ul.rating li.five a:hover {
   content: "";
   height: 11px;
   width: 11px;
-  background-image: url(../images/grid.png);
+  background-image: url(../assets/images/grid.png);
   background-repeat: no-repeat;
   background-position: bottom;
   display: inline-block;
@@ -2678,7 +2678,7 @@ ul.rating li.five a:hover {
 }
 
 .list:before {
-  background-image: url(../images/list.png);
+  background-image: url(../assets/images/list.png);
 }
 
 .grid-view {
@@ -2697,7 +2697,7 @@ ul.rating li.five a:hover {
 }
 
 .grid-view .add-basket {
-  background-image: url(../images/basket2.png);
+  background-image: url(../assets/images/basket2.png);
 }
 
 .grid-view ul {
@@ -2775,7 +2775,7 @@ ul.rating li.five a:hover {
   height: 7px;
   width: 5px;
   display: inline-block;
-  background-image: url(../images/up.png);
+  background-image: url(../assets/images/up.png);
   margin: 0px 0px 0px 5px;
 }
 
@@ -2819,7 +2819,7 @@ ul.rating li.five a:hover {
 
 #list .form-btn {
   color: #FFF;
-  background-image: url(../images/basket3.png);
+  background-image: url(../assets/images/basket3.png);
   background-repeat: no-repeat;
   background-position: 10px center;
   padding: 7px 20px 7px 40px;
@@ -2924,7 +2924,7 @@ ul.rating li.five a:hover {
   height: 33px;
   width: 33px;
   background-color: #535353;
-  background-image: url(../images/new-directions.png);
+  background-image: url(../assets/images/new-directions.png);
   background-repeat: no-repeat;
   background-position: -26px center;
   margin: 0px;
@@ -2939,7 +2939,7 @@ ul.rating li.five a:hover {
 }
 
 .whats-new .bx-wrapper .bx-prev {
-  background-image: url(../images/new-directions2.png);
+  background-image: url(../assets/images/new-directions2.png);
   background-repeat: no-repeat;
   background-position: 12px center;
   right: 33px;
@@ -3045,7 +3045,7 @@ ul.rating li.five a:hover {
   color: #4e4e4e;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  background-image: url(../images/plus.png);
+  background-image: url(../assets/images/plus.png);
   background-repeat: no-repeat;
   background-position: right center;
   padding: 12px 15px;
@@ -3053,7 +3053,7 @@ ul.rating li.five a:hover {
 }
 
 .hot-favorites .accordion-heading .accordion-toggle:hover, .hot-favorites .accordion-heading .accordion-toggle:focus {
-  background-image: url(../images/minus.png);
+  background-image: url(../assets/images/minus.png);
   color: #FFF;
   text-decoration: none;
 }
@@ -3277,7 +3277,7 @@ ul.rating li.five a:hover {
   width: 100%;
   text-align: center;
   padding: 10px 0px 40px 0px;
-  background-image: url(../images/more.png);
+  background-image: url(../assets/images/more.png);
   background-repeat: no-repeat;
   background-position: center 35px;
   background-color: #000;
