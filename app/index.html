@@ -7,16 +7,13 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/bx-slider.js/dist/jquery.bxslider.css" />
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/bootstrap.css" media="screen" />
     <link rel="stylesheet" href="styles/style.css" media="screen" />
-    <link rel="stylesheet" href="styles/color.css" media="screen" />
-    <link rel="stylesheet" href="styles/bootstrap-responsive.css" media="screen" />
-    <link rel="stylesheet" href="styles/bootstrap-responsive.css" media="screen" />
     <!-- endbuild -->
   </head>
   <body ng-app="beautyRedSpaApp">
@@ -26,20 +23,16 @@
 
     <header ng-include="'views/header.html'" ng-controller="HeaderCtrl"></header>
 
+    <div id="myCarousel" class="carousel slide" ng-include="'views/caroussel.html'" ng-controller="CarousselCtrl"></div>
+
     <div class="wrapper" ng-view=""></div>
 
-    <footer class="wrapper copyrights">
-      <div class="container">
-        <div class="row">
-          <div class="span6">
-            <p class="pull-left">Designed by Rahbari Guillaume</p>
-          </div>
-          <div class="span6">
-            <p class="pull-right">© 2015 - Beauty Red Spa Theme. All Rights Reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <!-- Marketing messaging and featurettes
+================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" ng-view=""></div>
+    <!-- /.container -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -57,6 +50,7 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -76,6 +70,7 @@
         <script src="scripts/controllers/contact.js"></script>
         <script src="scripts/controllers/prestations.js"></script>
         <script src="scripts/controllers/galeries.js"></script>
+        <script src="scripts/controllers/caroussel.js"></script>
         <!-- endbuild -->
 </body>
 </html>

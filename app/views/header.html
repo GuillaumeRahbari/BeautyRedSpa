@@ -1,48 +1,34 @@
-<!-- NAVIGUATION (début) -->
-<div class="navigation">
+<div class="navbar-wrapper">
   <div class="container">
-    <div class="row">
+    <div class="navbar navbar-inverse navbar-static-top">
 
-      <!-- LOGO -->
-      <div class="span3 relative">
-        <div class="logo">
-          <img src="../assets/images/logo.png" alt="Logo Beauty Red Spa">
-        </div>
-
+      <div class="navbar-header">
+        <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="navbar-brand" href="#">Bootstrap 3</a>
       </div>
-
-      <!-- Bar de naviguation (début) -->
-      <div class="span9">
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="container">
-
-              <!-- Pour l'affichage dans une fenêtre de type smartphone -->
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </a>
-
-              <!-- La naviguation à proprement parlé (début) -->
-              <div class="nav-collapse collapse">
-                <ul>
-
-                  <li><a ng-href="#/">Accueil</a></li>
-                  <li><a ng-href="#/prestations">Nos Prestations</a></li>
-                  <li><a ng-href="#/galeries">Galerie</a></li>
-                  <li><a ng-href="#/contact">Contact</a></li>
-                </ul>
-              </div>
-              <!-- La naviguation à proprement parlé (fin) -->
-
-            </div>
-          </div>
-        </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#/">Home</a></li>
+          <li><a href="#/#description">Description</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <!-- Bar de naviguation (fin) -->
 
     </div>
-  </div>
-</div>
-<!-- NAVIGUATION (fin) -->
+  </div><!-- /container -->
+</div><!-- /navbar wrapper -->
