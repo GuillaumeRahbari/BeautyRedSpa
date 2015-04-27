@@ -23,6 +23,10 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/prestations', {
+        templateUrl: 'views/prestations.html',
+        controller: 'PrestationsCtrl'
+      })
       .when('/galeries', {
         templateUrl: 'views/galeries.html',
         controller: 'GaleriesCtrl'

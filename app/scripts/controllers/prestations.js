@@ -8,10 +8,10 @@
  * Controller of the beautyRedSpaApp
  */
 angular.module('beautyRedSpaApp')
-  .controller('PrestationsCtrl', function ($scope) {
+  .controller('PrestationsCtrl', ['$scope', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-  });
+  }]);
