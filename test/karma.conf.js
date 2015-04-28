@@ -30,6 +30,7 @@ module.exports = function(config) {
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/bx-slider.js/dist/jquery.bxslider.js',
       'bower_components/bx-slider.js/dist/jquery.bxslider.min.js',
+      'bower_components/angular-scroll/angular-scroll.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

@@ -23,9 +23,7 @@
 
     <header ng-include="'views/header.html'" ng-controller="HeaderCtrl"></header>
 
-    <div id="myCarousel" class="carousel slide" ng-include="'views/caroussel.html'" ng-controller="CarousselCtrl"></div>
-
-    <div class="wrapper" ng-view=""></div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" ng-include="'views/caroussel.html'" ng-controller="CarousselCtrl"></div>
 
     <!-- Marketing messaging and featurettes
 ================================================== -->
@@ -59,6 +57,7 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/bx-slider.js/dist/jquery.bxslider.js"></script>
     <script src="bower_components/bx-slider.js/dist/jquery.bxslider.min.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
