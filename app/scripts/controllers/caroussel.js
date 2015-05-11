@@ -14,4 +14,13 @@ angular.module('beautyRedSpaApp')
       'AngularJS',
       'Karma'
     ];
+
+    angular.element(document).ready(function(){
+      angular.element('.bxslider').bxSlider({
+        mode : 'fade',
+        auto:true,
+        adaptiveHeight: true
+      });
+    });
+
   });
