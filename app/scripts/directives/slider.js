@@ -15,7 +15,6 @@ angular.module('beautyRedSpaApp')
         slideit: '='
       },
       template: '<ul class="bxslider">' +
-      '<div class="container text-center"><div><h1>Beauty Red Spa</h1></div></div>' +
       '<li ng-repeat="slide in slideit" class="slide">' +
       '<img ng-src="{{slide.src}}" />' +
       '</li>' +
