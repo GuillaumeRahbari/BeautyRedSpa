@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: CarousselCtrl', function () {
+describe('Controller: FooterCtrl', function () {
 
   // load the controller's module
   beforeEach(module('beautyRedSpaApp'));
 
-  var CarousselCtrl,
+  var FooterCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    CarousselCtrl = $controller('CarousselCtrl', {
+    FooterCtrl = $controller('FooterCtrl', {
       $scope: scope
     });
   }));
