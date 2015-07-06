@@ -31,6 +31,10 @@ body {
   border-radius: 30px;
 }
 
+.navbar .navbar-brand {
+  padding-top: 6px;
+}
+
 /*================================
     DESCRIPTION SECTION STYLES
 ==================================*/
