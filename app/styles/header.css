@@ -56,11 +56,12 @@
   text-align: center;
 }
 
-.separation {
-  width: 50%;
-  height: 1px;
-  background: rgba(50,50,50, 0.9);
-
+.bxslider .container div {
+  position: absolute;
+  z-index: 51;
+  text-align: center;
+  left: 50%;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 768px){

@@ -15,7 +15,8 @@ angular.module('beautyRedSpaApp')
         slideit: '='
       },
       template: '<ul class="bxslider">' +
-      '<li ng-repeat="slide in slideit">' +
+      '<div class="container text-center"><div><h1>Beauty Red Spa</h1></div></div>' +
+      '<li ng-repeat="slide in slideit" class="slide">' +
       '<img ng-src="{{slide.src}}" />' +
       '</li>' +
       '</ul>',
@@ -25,7 +26,8 @@ angular.module('beautyRedSpaApp')
               mode: 'fade',
               auto: true,
               adaptiveHeight: true,
-              speed: 50
+              speed: 50,
+              slideSelector : '.slide'
             });
           });
       }
