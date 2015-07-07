@@ -156,7 +156,7 @@ module.exports = function (grunt) {
       },
       server: {
         options: {
-          map: true,
+          map: true
         },
         files: [{
           expand: true,
@@ -360,6 +360,11 @@ module.exports = function (grunt) {
           expand: true,
           cwd: 'bower_components/fontawesome/',
           src: 'fonts/*',
+          dest: '<%= yeoman.dist %>'
+        }, {
+          expand: true,
+          cwd: 'bower_components/bx-slider.js/',
+          src: 'dist/images/*',
           dest: '<%= yeoman.dist %>'
         }]
       },
