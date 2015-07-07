@@ -25,6 +25,6 @@ angular
         controller: 'MainCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '404.html'
       });
   });
