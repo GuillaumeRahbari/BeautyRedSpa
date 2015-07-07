@@ -363,9 +363,9 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>'
         }, {
           expand: true,
-          cwd: 'bower_components/bx-slider.js/',
-          src: 'dist/images/*',
-          dest: '<%= yeoman.dist %>'
+          cwd: 'bower_components/bx-slider.js/dist',
+          src: 'images/*',
+          dest: '<%= yeoman.dist %>/assets'
         }]
       },
       styles: {
