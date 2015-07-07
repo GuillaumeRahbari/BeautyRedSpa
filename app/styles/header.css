@@ -63,27 +63,3 @@
   left: 50%;
   padding-bottom: 50px;
 }
-
-@media (max-width: 768px){
-  .separation {
-    display: none;
-  }
-}
-
-@media  (max-width: 1200px){
-  .separation {
-    width: 60%;
-  }
-}
-
-@media  (max-width: 1000px){
-  .separation {
-    width: 70%;
-  }
-}
-
-@media  (max-width: 800px){
-  .separation {
-    width: 78%;
-  }
-}
