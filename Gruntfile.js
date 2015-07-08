@@ -365,7 +365,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: 'bower_components/bx-slider.js/dist',
           src: 'images/*',
-          dest: '<%= yeoman.dist %>/assets'
+          dest: '<%= yeoman.dist %>/styles'
         }]
       },
       styles: {
